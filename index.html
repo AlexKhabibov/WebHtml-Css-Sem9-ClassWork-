@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html/Css_ Sem9ClassWoek</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- 
+    
+    1. При наведении на любую ссылку цвет текста должен стать красным
+При нажатии на ссылку цвет текста должен стать зеленым в момент нажатия
+Найти первый элемент списка и добавить нижнее подчеркивание ссылке
+Найти последний элемент списка и добавить ссылке жирность font-weight: bold
+У третьей ссылки нужно поменять цвет фона на оранжевый  
+    2. Дан код https://codepen.io/alexej-kadochnikow/pen/RwQrvov
+Необходимо создать псевдоэлемент new
+Разместить его в правом верхнем углу блока product чтобы он не смещал другие элементы
+Размеры блока 35 на 35 px
+цвет фона красный, а цвет текста белый
+Необходимо создать псевдоэлемент sale
+Разместить его в левом верхнем углу блока product чтобы он не смещал другие элементы
+размеры блока 35 на 35 px
+цвет фона оранжевый, а цвет текста белый
+    3. Скопировать любой код svg с сайта https://fontawesome.com/
+Необходимо добавить эффект наведения на картинку и поменять значение цвета на purple при наведении и yellow при нажатии 
+    4. Дан код https://codepen.io/alexej-kadochnikow/pen/yLveZbg
+Необходимо добавить
+При наведении на первый блок, чтобы он смещался на 50px вправо
+при наведении на второй блок, он должен становиться в 2 раза больше
+При наведении на 3 блок, он должен повернуться по часовой стрелке на 60 градусов
+Все наведения должны быть плавными и выполнять переход за 1 секунду
+Можно менять параметры ширины и высоты при необходимости
+    5. Дан код https://codepen.io/RomTurino/pen/RwdKGEO
+Есть карточка, на изображение которой наложен цвет и кнопка.
+Сделайте цвет прозрачным, чтобы было видно изображение
+Сделайте цвет и кнопку появляющимися только при наведении курсора на card
+    6. Дан код https://codepen.io/alexej-kadochnikow/pen/GRQozvb
+Необходимо добавить произвольную анимацию на кнопку для этого можно использовать генератор или придумать анимацию самостоятельно https://animista.net/play/basic/rotate-scale , если необходимо быстро определиться https://animista.net/play/attention/wobble -->
+    <ul class="menu">
+        <li class="menu__list"><a href="#" class="menu__link">list-1</a></li>
+        <li class="menu__list"><a href="#" class="menu__link">list-2</a></li>
+        <li class="menu__list"><a href="#" class="menu__link">list-3</a></li>
+        <li class="menu__list"><a href="#" class="menu__link">list-4</a></li>
+    </ul>
+
+    <div class="product">
+        <div class="product__img"></div>
+        <h2 class="product__name">Name product</h2>
+        <p class="product__text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    </div>
+    <div class="svg__icon__bell">
+        <svg xmlns="http://www.w3.org/2000/svg" height="50" width="40"
+            viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+            <path
+                d="M224 0c-17.7 0-32 14.3-32 32V51.2C119 66 64 130.6 64 208v25.4c0 45.4-15.5 89.5-43.8 124.9L5.3 377c-5.8 7.2-6.9 17.1-2.9 25.4S14.8 416 24 416H424c9.2 0 17.6-5.3 21.6-13.6s2.9-18.2-2.9-25.4l-14.9-18.6C399.5 322.9 384 278.8 384 233.4V208c0-77.4-55-142-128-156.8V32c0-17.7-14.3-32-32-32zm0 96c61.9 0 112 50.1 112 112v25.4c0 47.9 13.9 94.6 39.7 134.6H72.3C98.1 328 112 281.3 112 233.4V208c0-61.9 50.1-112 112-112zm64 352H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7s18.7-28.3 18.7-45.3z" />
+        </svg>
+    </div>
+
+    <div>
+        <div class="content">
+            <div class="item item_1">1</div>
+            <div class="item item_2">2</div>
+            <div class="item item_3">3</div>
+        </div>
+    </div>
+    <div class="button vibrate-1">Купить</div>
+</body>
+
+</html>
